@@ -1,13 +1,16 @@
 package com.tdd.FizzBuzzTest;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
- * Hello world!
+ * Filter the range of int to produce FizzBuzz pattern 
  *
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+	public String[] filter(int start,int end){
+		String[] result=new String[end-start+1];
+		return result;
+	}
 }
