@@ -26,4 +26,10 @@ public class AppTest {
 		assertArrayEquals(expectedList,obj.filter(4, 7));
 	}
 	
+	@Test
+	public void shouldChangedValuesWhichAreDivisibleBy3and5toFizzBuzz() {
+		String[] expectedList= {"14","FizzBuzz","16","17","Fizz"};
+		assertArrayEquals(expectedList,obj.filter(14, 18));
+	}
+	
 }
